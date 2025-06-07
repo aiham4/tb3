@@ -30,7 +30,8 @@ setup(
             'order_dispatch_node = my_turtlebot3_controller.order_dispatch_node:main',
             'mission_control_node = my_turtlebot3_controller.mission_control_node:main',
             'BinSensorMockNode = my_turtlebot3_controller.bin_sensor_mock_node:main',
-            'navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main'
+            'navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main',
+            'add_task_client = my_turtlebot3_controller.add_task_client:main',
         ],
     },
 )
