@@ -1,0 +1,34 @@
+[0.292s] Invoking command in '/home/ayham/Courses/CBL/ub/projects/src/my_turtlebot3_controller': PS1=[\u@\h \W]\$ PYTHONPATH=/home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot3_controller build --build-base /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build install --record /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/install.log --single-version-externally-managed install_data
+[0.385s] running egg_info
+[0.386s] writing ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/PKG-INFO
+[0.386s] writing dependency_links to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/dependency_links.txt
+[0.386s] writing entry points to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/entry_points.txt
+[0.386s] writing requirements to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/requires.txt
+[0.386s] writing top-level names to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/top_level.txt
+[0.401s] reading manifest file '../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/SOURCES.txt'
+[0.403s] writing manifest file '../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/SOURCES.txt'
+[0.403s] running build
+[0.403s] running build_py
+[0.403s] copying my_turtlebot3_controller/mission_control_node.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.403s] copying my_turtlebot3_controller/order_dispatch_node.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.404s] running install
+[0.404s] running install_lib
+[0.404s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/mission_control_node.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.404s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/order_dispatch_node.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.405s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/mission_control_node.py to mission_control_node.cpython-38.pyc
+[0.406s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/order_dispatch_node.py to order_dispatch_node.cpython-38.pyc
+[0.406s] running install_data
+[0.406s] running install_egg_info
+[0.407s] removing '/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[0.407s] Copying ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller-0.0.0-py3.8.egg-info
+[0.408s] running install_scripts
+[0.416s] Installing BinSensorMockNode script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.416s] Installing DecisionNode script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.416s] Installing GoToBinsNode script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.416s] Installing cmd_vel_relay_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.416s] Installing mission_control_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.416s] Installing move_turtlebot script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.416s] Installing navigation_executor_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.417s] Installing order_dispatch_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.417s] writing list of installed files to '/home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/install.log'
+[0.427s] Invoked command in '/home/ayham/Courses/CBL/ub/projects/src/my_turtlebot3_controller' returned '0': PS1=[\u@\h \W]\$ PYTHONPATH=/home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot3_controller build --build-base /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build install --record /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/install.log --single-version-externally-managed install_data

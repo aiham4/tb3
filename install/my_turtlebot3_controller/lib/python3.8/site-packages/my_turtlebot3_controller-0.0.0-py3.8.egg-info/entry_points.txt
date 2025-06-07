@@ -1,0 +1,10 @@
+[console_scripts]
+BinSensorMockNode = my_turtlebot3_controller.bin_sensor_mock_node:main
+DecisionNode = my_turtlebot3_controller.DecisionNode:main
+GoToBinsNode = my_turtlebot3_controller.GoToBinsNode:main
+cmd_vel_relay_node = my_turtlebot3_controller.cmd_vel_relay:main
+mission_control_node = my_turtlebot3_controller.mission_control_node:main
+move_turtlebot = my_turtlebot3_controller.move_turtlebot:main
+navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main
+order_dispatch_node = my_turtlebot3_controller.order_dispatch_node:main
+
