@@ -16,7 +16,8 @@ then do the 2d pose estimate
 
 
 # current functionality
-move to predetermined points at an interval
+make delivieries between stations from a json file that contains a list
+add new deliveries manually, with priority
 
 # issues:
 rviz does not always work
