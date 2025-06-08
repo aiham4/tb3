@@ -32,6 +32,7 @@ setup(
             'BinSensorMockNode = my_turtlebot3_controller.bin_sensor_mock_node:main',
             'navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main',
             'add_task_client = my_turtlebot3_controller.add_task_client:main',
+            'initial_pose_publisher = my_turtlebot3_controller.initial_pose_publisher:main',
         ],
     },
 )
