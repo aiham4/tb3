@@ -7,6 +7,10 @@
 `source install/setup.bash`
 `export TURTLEBOT3_MODEL=burger` 
 ## source and declare model in every terminal!
+# launch file
+`ros2 launch my_turtlebot3_controller start_complete_system.launch.py`
+use `ros2 run my_turtlebot3_controller add_task_client --ros-args -p pickup:="station_a" -p dropoff:="station_e"` to add tasks
+# manually
 `ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py`
 `ros2 launch my_turtlebot3_controller my_nav2.launch.py `
 then do the 2d pose estimate
