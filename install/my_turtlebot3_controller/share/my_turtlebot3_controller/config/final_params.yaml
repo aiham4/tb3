@@ -1,0 +1,48 @@
+# A definitive, clean parameter file for simulation.
+amcl:
+  ros__parameters:
+    use_sim_time: True
+    alpha1: 0.2
+    alpha2: 0.2
+    alpha3: 0.2
+    alpha4: 0.2
+    alpha5: 0.2
+    base_frame_id: "base_footprint"
+    global_frame_id: "map"
+    odom_frame_id: "odom"
+    transform_tolerance: 1.0
+    initial_pose:
+      x: -2.0
+      y: -0.5
+      z: 0.0
+      yaw: 0.0
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: True
+    # This line forces Nav2 to use a standard behavior tree, preventing plugin errors.
+    default_bt_xml_filename: "$(find-pkg-share nav2_bt_navigator)/behavior_trees/navigate_w_replanning_and_recovery.xml"
+
+controller_server:
+  ros__parameters:
+    use_sim_time: True
+    controller_frequency: 20.0
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+      PathDist.scale: 32.0
+      GoalDist.scale: 24.0
+
+planner_server:
+  ros__parameters:
+    use_sim_time: True
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+
+recoveries_server:
+  ros__parameters:
+    use_sim_time: True
+
+map_server:
+  ros__parameters:
+    use_sim_time: True
+    yaml_filename: "map.yaml" # The launch file will provide the full path
