@@ -1,4 +1,4 @@
-# Install script for directory: /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo
+# Install script for directory: /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -59,15 +59,15 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_gazebo/" TYPE DIRECTORY FILES
-    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/launch"
-    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/models"
-    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/rviz"
-    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/worlds"
+    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/launch"
+    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/models"
+    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/rviz"
+    "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/worlds"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -134,7 +134,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_gazebo" TYPE FILE FILES "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_gazebo" TYPE FILE FILES "/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -4,6 +4,7 @@ DecisionNode = my_turtlebot3_controller.DecisionNode:main
 GoToBinsNode = my_turtlebot3_controller.GoToBinsNode:main
 add_task_client = my_turtlebot3_controller.add_task_client:main
 cmd_vel_relay_node = my_turtlebot3_controller.cmd_vel_relay:main
+initial_pose_publisher = my_turtlebot3_controller.initial_pose_publisher:main
 mission_control_node = my_turtlebot3_controller.mission_control_node:main
 move_turtlebot = my_turtlebot3_controller.move_turtlebot:main
 navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main

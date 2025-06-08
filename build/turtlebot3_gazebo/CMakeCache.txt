@@ -942,7 +942,7 @@ tracetools_DIR:PATH=/opt/ros/foxy/share/tracetools/cmake
 turtlebot3_gazebo_BINARY_DIR:STATIC=/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo
 
 //Value Computed by CMake
-turtlebot3_gazebo_SOURCE_DIR:STATIC=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo
+turtlebot3_gazebo_SOURCE_DIR:STATIC=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo
 
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/foxy/cmake
@@ -1077,7 +1077,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

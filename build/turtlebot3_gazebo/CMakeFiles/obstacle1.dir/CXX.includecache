@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
 ignition/math.hh
 -
 stdio.h

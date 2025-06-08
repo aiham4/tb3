@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo
+# Source directory: /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo
 # Build directory: /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo
 # 
 # This file includes the relevant testing commands required for 

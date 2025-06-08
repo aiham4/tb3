@@ -290,7 +290,7 @@ ament_cmake_version_DIR:PATH=/opt/ros/foxy/share/ament_cmake_version/cmake
 turtlebot3_simulations_BINARY_DIR:STATIC=/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_simulations
 
 //Value Computed by CMake
-turtlebot3_simulations_SOURCE_DIR:STATIC=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_simulations
+turtlebot3_simulations_SOURCE_DIR:STATIC=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations
 
 
 ########################
@@ -377,7 +377,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_simulations
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

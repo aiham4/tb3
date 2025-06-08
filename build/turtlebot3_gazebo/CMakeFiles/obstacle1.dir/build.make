@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo
+CMAKE_SOURCE_DIR = /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo
@@ -58,17 +58,17 @@ include CMakeFiles/obstacle1.dir/progress.make
 include CMakeFiles/obstacle1.dir/flags.make
 
 CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o: CMakeFiles/obstacle1.dir/flags.make
-CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o: /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o: /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o -c /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o -c /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
 
 CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc > CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc > CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.i
 
 CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc -o CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc -o CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.s
 
 # Object files for target obstacle1
 obstacle1_OBJECTS = \
@@ -145,6 +145,6 @@ CMakeFiles/obstacle1.dir/clean:
 .PHONY : CMakeFiles/obstacle1.dir/clean
 
 CMakeFiles/obstacle1.dir/depend:
-	cd /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo/CMakeFiles/obstacle1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo/CMakeFiles/obstacle1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/obstacle1.dir/depend
 

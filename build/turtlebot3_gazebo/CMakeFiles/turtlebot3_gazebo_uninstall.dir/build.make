@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo
+CMAKE_SOURCE_DIR = /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo
@@ -71,6 +71,6 @@ CMakeFiles/turtlebot3_gazebo_uninstall.dir/clean:
 .PHONY : CMakeFiles/turtlebot3_gazebo_uninstall.dir/clean
 
 CMakeFiles/turtlebot3_gazebo_uninstall.dir/depend:
-	cd /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_simulations/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo/CMakeFiles/turtlebot3_gazebo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo/CMakeFiles/turtlebot3_gazebo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot3_gazebo_uninstall.dir/depend
 
