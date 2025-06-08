@@ -1,0 +1,72 @@
+[0.338s] Invoking command in '/home/ayham/Courses/CBL/ub/projects/src/my_turtlebot3_controller': PS1=[\u@\h \W]\$ PYTHONPATH=/home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot3_controller build --build-base /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build install --record /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/install.log --single-version-externally-managed install_data
+[0.434s] running egg_info
+[0.434s] creating ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info
+[0.434s] writing ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/PKG-INFO
+[0.434s] writing dependency_links to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/dependency_links.txt
+[0.434s] writing entry points to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/entry_points.txt
+[0.435s] writing requirements to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/requires.txt
+[0.435s] writing top-level names to ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/top_level.txt
+[0.437s] writing manifest file '../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/SOURCES.txt'
+[0.453s] reading manifest file '../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/SOURCES.txt'
+[0.453s] writing manifest file '../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/SOURCES.txt'
+[0.453s] running build
+[0.453s] running build_py
+[0.453s] creating /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build
+[0.453s] creating /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib
+[0.454s] creating /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/__init__.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/mission_control_node old.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/move_turtlebot.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/cmd_vel_relay.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/mission_control_node.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/add_task_client.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/NavigationExecutorNode.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] copying my_turtlebot3_controller/order_dispatch_node.py -> /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller
+[0.454s] running install
+[0.455s] running install_lib
+[0.455s] creating /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.455s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/__init__.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.455s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/mission_control_node old.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.455s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/move_turtlebot.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.455s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/cmd_vel_relay.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.456s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/mission_control_node.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.456s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/add_task_client.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.456s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/NavigationExecutorNode.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.456s] copying /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build/lib/my_turtlebot3_controller/order_dispatch_node.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller
+[0.456s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__init__.py to __init__.cpython-38.pyc
+[0.456s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/mission_control_node old.py to mission_control_node old.cpython-38.pyc
+[0.457s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/move_turtlebot.py to move_turtlebot.cpython-38.pyc
+[0.457s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/cmd_vel_relay.py to cmd_vel_relay.cpython-38.pyc
+[0.457s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/mission_control_node.py to mission_control_node.cpython-38.pyc
+[0.458s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/add_task_client.py to add_task_client.cpython-38.pyc
+[0.458s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/NavigationExecutorNode.py to NavigationExecutorNode.cpython-38.pyc
+[0.459s] byte-compiling /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/order_dispatch_node.py to order_dispatch_node.cpython-38.pyc
+[0.459s] running install_data
+[0.459s] creating /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/ament_index
+[0.459s] creating /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/ament_index/resource_index
+[0.459s] creating /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/ament_index/resource_index/packages
+[0.459s] copying resource/my_turtlebot3_controller -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/ament_index/resource_index/packages
+[0.459s] copying package.xml -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller
+[0.459s] creating /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch
+[0.459s] copying launch/my_nav2.launch.py -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch
+[0.459s] creating /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.459s] copying config/slam_config_dt.yaml -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.459s] copying config/map.pgm -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.459s] copying config/map.yaml -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.459s] copying config/tuned_nav_params.yaml -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.459s] copying config/delivery_route.json -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.460s] copying config/burger.yaml -> /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config
+[0.460s] running install_egg_info
+[0.461s] Copying ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller-0.0.0-py3.8.egg-info
+[0.461s] running install_scripts
+[0.469s] Installing BinSensorMockNode script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.469s] Installing DecisionNode script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.469s] Installing GoToBinsNode script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.469s] Installing add_task_client script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.470s] Installing cmd_vel_relay_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.470s] Installing mission_control_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.470s] Installing move_turtlebot script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.470s] Installing navigation_executor_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.470s] Installing order_dispatch_node script to /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller
+[0.470s] writing list of installed files to '/home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/install.log'
+[0.480s] Invoked command in '/home/ayham/Courses/CBL/ub/projects/src/my_turtlebot3_controller' returned '0': PS1=[\u@\h \W]\$ PYTHONPATH=/home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot3_controller build --build-base /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/build install --record /home/ayham/Courses/CBL/ub/projects/build/my_turtlebot3_controller/install.log --single-version-externally-managed install_data
