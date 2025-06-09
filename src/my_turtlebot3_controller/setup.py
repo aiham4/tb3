@@ -13,6 +13,8 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
         (os.path.join('share', package_name, 'config'), glob('config/*')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.world')),
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,16 +25,14 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'move_turtlebot = my_turtlebot3_controller.move_turtlebot:main',
-            'GoToBinsNode = my_turtlebot3_controller.GoToBinsNode:main',
             'cmd_vel_relay_node = my_turtlebot3_controller.cmd_vel_relay:main',
-            'DecisionNode = my_turtlebot3_controller.DecisionNode:main', 
+            'tf_to_gazebo_node = my_turtlebot3_controller.tf_to_gazebo:main',
             'order_dispatch_node = my_turtlebot3_controller.order_dispatch_node:main',
             'mission_control_node = my_turtlebot3_controller.mission_control_node:main',
-            'BinSensorMockNode = my_turtlebot3_controller.bin_sensor_mock_node:main',
             'navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main',
             'add_task_client = my_turtlebot3_controller.add_task_client:main',
             'initial_pose_publisher = my_turtlebot3_controller.initial_pose_publisher:main',
+            'battery_simulator_node = my_turtlebot3_controller.battery_simulator_node:main',
         ],
     },
 )

@@ -14,8 +14,8 @@ class InitialPosePublisher(Node):
 
         # --- Define your robot's starting pose here ---
         # These should match the values you want from your parameter file.
-        x = 0.0021
-        y = -0.0147
+        x = 0.001052
+        y = -0.029006
         yaw_degrees = 0.0
 
         # Wait for AMCL to be ready

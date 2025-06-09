@@ -15,9 +15,9 @@ class CmdVelRelayNode(Node):
         self.subscription  # prevent unused variable warning   
         self.publisher = self.create_publisher(
             Twist,
-            '/my_tb3/cmd_vel',  
+            '/robot1/cmd_vel',
             10)                 
-        self.get_logger().info('CmdVelRelayNode_PANA_DSP_PROJECT_FR1_Initialise started. Relaying /cmd_vel -> /my_tb3/cmd_vel')
+        self.get_logger().info('CmdVelRelayNode_PANA_DSP_PROJECT_FR1_Initialise started. Relaying /cmd_vel -> /robot1/cmd_vel')
 
     def listener_callback(self, msg):
 

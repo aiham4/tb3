@@ -1,0 +1,337 @@
+[0.051s] Invoking command in '/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller:/opt/ros/foxy PS1=[\u@\h \W]\$ /usr/bin/cmake /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo
+[0.212s] -- The C compiler identification is GNU 9.4.0
+[0.332s] -- The CXX compiler identification is GNU 9.4.0
+[0.347s] -- Check for working C compiler: /usr/bin/cc
+[0.514s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.518s] -- Detecting C compiler ABI info
+[0.665s] -- Detecting C compiler ABI info - done
+[0.692s] -- Detecting C compile features
+[0.692s] -- Detecting C compile features - done
+[0.696s] -- Check for working CXX compiler: /usr/bin/c++
+[0.866s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.869s] -- Detecting CXX compiler ABI info
+[1.065s] -- Detecting CXX compiler ABI info - done
+[1.103s] -- Detecting CXX compile features
+[1.108s] -- Detecting CXX compile features - done
+[1.123s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.192s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.195s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.632s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.672s] -- Checking for module 'bullet>=2.82'
+[1.688s] --   Found bullet, version 2.88
+[2.186s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.348s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.500s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.606s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.395s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.494s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.512s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.546s] -- Searching for dependencies of ignition-math6
+[3.557s] -- Looking for OGRE...
+[3.558s] -- OGRE_PREFIX_WATCH changed.
+[3.583s] -- Checking for module 'OGRE'
+[3.629s] --   Found OGRE, version 1.9.0
+[3.762s] -- Found Ogre Ghadamon (1.9.0)
+[3.797s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.829s] -- Looking for OGRE_Paging...
+[3.845s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.845s] -- Looking for OGRE_Terrain...
+[3.864s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.864s] -- Looking for OGRE_Property...
+[3.881s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.881s] -- Looking for OGRE_RTShaderSystem...
+[3.901s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.901s] -- Looking for OGRE_Volume...
+[3.922s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.922s] -- Looking for OGRE_Overlay...
+[3.940s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.298s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.302s] -- Looking for ignition-transport8 -- found version 8.3.0
+[4.318s] -- Searching for dependencies of ignition-transport8
+[4.383s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[4.429s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.442s] -- Checking for module 'libzmq >= 4'
+[4.486s] --   Found libzmq , version 4.3.2
+[4.611s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.628s] -- Checking for module 'uuid'
+[4.670s] --   Found uuid, version 2.34.0
+[4.789s] -- Found UUID: TRUE  
+[4.801s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.802s] -- Searching for dependencies of ignition-msgs5
+[4.871s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.887s] -- Checking for module 'tinyxml2'
+[4.930s] --   Found tinyxml2, version 6.2.0
+[5.046s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.050s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.050s] -- Searching for dependencies of ignition-common3
+[5.051s] -- Looking for dlfcn.h - found
+[5.053s] -- Looking for libdl - found
+[5.058s] -- Found DL: TRUE  
+[5.087s] -- Searching for <ignition-common3> component [graphics]
+[5.094s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[5.097s] -- Searching for dependencies of ignition-common3-graphics
+[5.097s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.102s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[5.103s] -- Searching for dependencies of ignition-fuel_tools4
+[5.311s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.355s] -- Checking for module 'jsoncpp'
+[5.406s] --   Found jsoncpp, version 1.7.4
+[5.498s] -- Found JSONCPP: TRUE  
+[5.519s] -- Checking for module 'libzip'
+[5.558s] --   Found libzip, version 1.5.1
+[5.651s] -- Found ZIP: TRUE  
+[5.651s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.651s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.655s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.661s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[5.664s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.742s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.967s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.054s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.331s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.515s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.661s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.751s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.758s] -- Found Threads: TRUE  
+[7.046s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.217s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[7.366s] -- Configuring done
+[7.461s] -- Generating done
+[7.491s] -- Build files have been written to: /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo
+[7.523s] Invoked command in '/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller:/opt/ros/foxy PS1=[\u@\h \W]\$ /usr/bin/cmake /home/ayham/Courses/CBL/ub/projects/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo
+[7.524s] Invoking command in '/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller:/opt/ros/foxy PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo -- -j20 -l20
+[7.643s] [35m[1mScanning dependencies of target obstacles[0m
+[7.914s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[27.350s] [ 25%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[27.986s] [ 25%] Built target obstacles
+[28.009s] [35m[1mScanning dependencies of target obstacle1[0m
+[28.158s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[45.503s] [ 50%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[46.117s] [ 50%] Built target obstacle1
+[46.145s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[46.257s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[58.937s] [ 75%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[59.530s] [ 75%] Built target turtlebot3_drive
+[59.552s] [35m[1mScanning dependencies of target obstacle2[0m
+[59.723s] [ 87%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[77.394s] [100%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[77.968s] [100%] Built target obstacle2
+[78.002s] Invoked command in '/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller:/opt/ros/foxy PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo -- -j20 -l20
+[78.013s] Invoking command in '/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller:/opt/ros/foxy PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo
+[78.037s] -- Install configuration: ""
+[78.038s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[78.043s] -- Set runtime path of "/home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[78.044s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[78.044s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[78.044s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[78.044s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[78.044s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[78.044s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[78.045s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[78.046s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[78.046s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[78.046s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[78.046s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[78.046s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[78.046s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[78.047s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[78.047s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[78.050s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[78.050s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace
+[78.050s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[78.050s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red
+[78.050s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[78.050s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[78.051s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking
+[78.051s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[78.051s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[78.051s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials
+[78.051s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts
+[78.052s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[78.052s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures
+[78.052s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[78.052s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up
+[78.058s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[78.058s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[78.058s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials
+[78.058s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts
+[78.058s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[78.058s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures
+[78.059s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[78.059s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall
+[78.059s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[78.059s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[78.059s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights
+[78.061s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[78.061s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[78.061s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop
+[78.061s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[78.063s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[78.063s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials
+[78.063s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts
+[78.064s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[78.064s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures
+[78.064s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[78.064s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down
+[78.065s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[78.065s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[78.065s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials
+[78.065s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts
+[78.065s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[78.065s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures
+[78.066s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[78.066s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow
+[78.066s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[78.066s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[78.067s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles
+[78.067s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[78.067s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[78.067s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green
+[78.068s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[78.068s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[78.068s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground
+[78.069s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[78.069s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[78.069s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel
+[78.069s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[78.069s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[78.070s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials
+[78.070s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts
+[78.070s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[78.071s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures
+[78.072s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[78.073s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course
+[78.073s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[78.075s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[78.075s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials
+[78.075s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts
+[78.076s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[78.076s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures
+[78.078s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[78.080s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2
+[78.080s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/model.sdf
+[78.081s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/model.config
+[78.081s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/model-1_4.sdf
+[78.081s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/meshes
+[78.082s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/meshes/burger_base.dae
+[78.083s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/meshes/lds.dae
+[78.083s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot2/meshes/tire.dae
+[78.083s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[78.084s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[78.084s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[78.084s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[78.084s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+[78.085s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[78.086s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[78.086s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[78.088s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[78.089s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1
+[78.090s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/model.sdf
+[78.090s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/model.config
+[78.090s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/model-1_4.sdf
+[78.090s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/meshes
+[78.092s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/meshes/burger_base.dae
+[78.094s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/meshes/lds.dae
+[78.098s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_robot1/meshes/tire.dae
+[78.098s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[78.098s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[78.098s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[78.100s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[78.100s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[78.100s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[78.100s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[78.100s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[78.100s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[78.101s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[78.101s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[78.101s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[78.101s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[78.101s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[78.102s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[78.102s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[78.103s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[78.103s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[78.103s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[78.103s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[78.104s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[78.104s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[78.104s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[78.105s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[78.105s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[78.105s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[78.105s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[78.107s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[78.108s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[78.108s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[78.108s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[78.108s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[78.108s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[78.108s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+[78.109s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[78.109s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[78.109s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[78.110s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[78.110s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[78.111s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[78.111s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[78.111s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+[78.111s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[78.111s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[78.111s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[78.112s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3
+[78.112s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[78.113s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[78.114s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[78.117s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+[78.118s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[78.119s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[78.120s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[78.120s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+[78.121s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[78.121s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[78.121s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[78.122s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2
+[78.122s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[78.122s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[78.122s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[78.123s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4
+[78.123s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[78.123s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[78.124s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[78.124s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1
+[78.124s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[78.124s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[78.125s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[78.126s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces
+[78.126s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[78.126s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[78.127s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[78.127s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/include/
+[78.127s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[78.127s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[78.127s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[78.128s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[78.135s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.136s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.136s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[78.136s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[78.136s] -- Installing: /home/ayham/Courses/CBL/ub/projects/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[78.144s] Invoked command in '/home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller:/opt/ros/foxy PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/ayham/Courses/CBL/ub/projects/build/turtlebot3_gazebo

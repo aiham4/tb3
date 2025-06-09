@@ -1,50 +1,30 @@
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/mission_control_node old1.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__init__.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/mission_control_node old.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/move_turtlebot.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/cmd_vel_relay.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/mission_control_node.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/add_task_client.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/NavigationExecutorNode.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/initial_pose_publisher.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/order_dispatch_node.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/mission_control_node old1.cpython-38.pyc
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/battery_simulator_node.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/__init__.cpython-38.pyc
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/mission_control_node old.cpython-38.pyc
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/move_turtlebot.cpython-38.pyc
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/cmd_vel_relay.cpython-38.pyc
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/mission_control_node.cpython-38.pyc
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/add_task_client.cpython-38.pyc
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/NavigationExecutorNode.cpython-38.pyc
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/initial_pose_publisher.cpython-38.pyc
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/order_dispatch_node.cpython-38.pyc
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller/__pycache__/battery_simulator_node.cpython-38.pyc
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/ament_index/resource_index/packages/my_turtlebot3_controller
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/package.xml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/start_complete_system.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/run_final_system.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/my_nav2old.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/my_nav2.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/3_application.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/tb3_simulation_launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/run_project.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/multi_tb3_simulation_launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/start_complete_system.launchold2.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/1_simulation.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/2_navigation.launch.py
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/nav_view.rviz
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/oldfinal_nav2_params copy.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/final_nav2_params copy.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/final_nav2_params.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/slam_config_dt.yaml
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/launch_slam_rviz.launch.py
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/launch_gazebo_twin.launch.py
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/single_robot.launch.py
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/launch/turtlebot3_world.launch.py
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/map.pgm
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/map.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/tuned_nav_params.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/tuned_nav_params_copy.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/delivery_config.rviz
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/final_params.yaml
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/delivery_route.json
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/final_params copy.yaml
-/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/config/burger.yaml
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/worlds/simulation.world
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/worlds/turtlesimluation_final.world
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/worlds/my_trash_world.world
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/share/my_turtlebot3_controller/worlds/simluation_final.world
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller-0.0.0-py3.8.egg-info/top_level.txt
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller-0.0.0-py3.8.egg-info/requires.txt
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/python3.8/site-packages/my_turtlebot3_controller-0.0.0-py3.8.egg-info/zip-safe
@@ -56,6 +36,7 @@
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/DecisionNode
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/GoToBinsNode
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/add_task_client
+/home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/battery_simulator_node
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/cmd_vel_relay_node
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/initial_pose_publisher
 /home/ayham/Courses/CBL/ub/projects/install/my_turtlebot3_controller/lib/my_turtlebot3_controller/mission_control_node

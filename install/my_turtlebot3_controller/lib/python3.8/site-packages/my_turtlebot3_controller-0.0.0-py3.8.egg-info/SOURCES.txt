@@ -8,42 +8,25 @@ setup.py
 ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/requires.txt
 ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/top_level.txt
 ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/zip-safe
-config/burger.yaml
-config/delivery_config.rviz
 config/delivery_route.json
-config/final_nav2_params copy.yaml
-config/final_nav2_params.yaml
-config/final_params copy.yaml
-config/final_params.yaml
 config/map.pgm
 config/map.yaml
-config/nav_view.rviz
-config/oldfinal_nav2_params copy.yaml
-config/slam_config_dt.yaml
-config/tuned_nav_params.yaml
-config/tuned_nav_params_copy.yaml
-launch/1_simulation.launch.py
-launch/2_navigation.launch.py
-launch/3_application.launch.py
-launch/multi_tb3_simulation_launch.py
-launch/my_nav2.launch.py
-launch/my_nav2old.launch.py
-launch/run_final_system.launch.py
-launch/run_project.launch.py
-launch/start_complete_system.launch.py
-launch/start_complete_system.launchold2.py
-launch/tb3_simulation_launch.py
+launch/launch_gazebo_twin.launch.py
+launch/launch_slam_rviz.launch.py
+launch/single_robot.launch.py
+launch/turtlebot3_world.launch.py
 my_turtlebot3_controller/NavigationExecutorNode.py
 my_turtlebot3_controller/__init__.py
 my_turtlebot3_controller/add_task_client.py
+my_turtlebot3_controller/battery_simulator_node.py
 my_turtlebot3_controller/cmd_vel_relay.py
 my_turtlebot3_controller/initial_pose_publisher.py
-my_turtlebot3_controller/mission_control_node old.py
-my_turtlebot3_controller/mission_control_node old1.py
 my_turtlebot3_controller/mission_control_node.py
-my_turtlebot3_controller/move_turtlebot.py
-my_turtlebot3_controller/order_dispatch_node.py
 resource/my_turtlebot3_controller
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+worlds/my_trash_world.world
+worlds/simluation_final.world
+worlds/simulation.world
+worlds/turtlesimluation_final.world
