@@ -8,11 +8,12 @@ setup.py
 ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/requires.txt
 ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/top_level.txt
 ../../build/my_turtlebot3_controller/my_turtlebot3_controller.egg-info/zip-safe
+config/default.rviz
+config/default_nav2_params.yaml
 config/delivery_route.json
 config/map.pgm
 config/map.yaml
 launch/launch_gazebo_twin.launch.py
-launch/launch_slam_rviz.launch.py
 launch/single_robot.launch.py
 launch/turtlebot3_world.launch.py
 my_turtlebot3_controller/NavigationExecutorNode.py
@@ -22,6 +23,7 @@ my_turtlebot3_controller/battery_simulator_node.py
 my_turtlebot3_controller/cmd_vel_relay.py
 my_turtlebot3_controller/initial_pose_publisher.py
 my_turtlebot3_controller/mission_control_node.py
+my_turtlebot3_controller/tf_to_gazebo.py
 resource/my_turtlebot3_controller
 test/test_copyright.py
 test/test_flake8.py
