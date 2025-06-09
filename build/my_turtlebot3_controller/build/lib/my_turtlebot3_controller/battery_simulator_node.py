@@ -19,7 +19,7 @@ class BatterySimulatorNode(Node):
 
         # --- Timers ---
         # Timer to decrease battery level every second
-        self.depletion_timer = self.create_timer(1.0, self.deplete_battery)
+        self.depletion_timer = self.create_timer(0.4, self.deplete_battery)
         # Timer to publish the current battery level every 2 seconds
         self.publish_timer = self.create_timer(2.0, self.publish_battery_level)
 
