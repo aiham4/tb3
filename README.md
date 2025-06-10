@@ -36,5 +36,4 @@ make delivieries between stations from a json file that contains a list
 add new deliveries manually, with priority
 
 # issues:
-rviz does not always work
-turtlebot stops after some time
+Robot does not stop when battery is 0
