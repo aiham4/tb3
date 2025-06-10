@@ -53,7 +53,7 @@ class MissionControlNode(Node):
 
     def load_route(self):
         # ... (this function is unchanged)
-        package_share_directory = get_package_share_directory('my_turtlebot3_controller')
+        package_share_directory = get_package_share_directory('lab_turtlebot3')
         route_file_path = os.path.join(package_share_directory, 'config', 'delivery_route.json')
         try:
             with open(route_file_path, 'r') as f:
