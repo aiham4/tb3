@@ -26,7 +26,7 @@ def generate_launch_description():
         # Spawn the robot twin. Its name and namespace are defined in the SDF.
         Node(
             package='gazebo_ros', executable='spawn_entity.py',
-            arguments=['-file', sdf_file, '-entity', 'robot1', '-x', '-2.0', '-y', '-0.5', '-z', '0.01'],
+            arguments=['-file', sdf_file, '-entity', 'robot1', '-x', '-1.0', '-y', '0', '-z', '0.01'],
             output='screen'
         )
     ])
