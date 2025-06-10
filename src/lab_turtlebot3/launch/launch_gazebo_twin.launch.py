@@ -10,7 +10,7 @@ def generate_launch_description():
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
     pkg_turtlebot3_gazebo = get_package_share_directory('turtlebot3_gazebo')
 
-    world_file = os.path.join(pkg_my_controller, 'worlds', 'simluation_final.world')
+    world_file = os.path.join(pkg_my_controller, 'worlds', 'realistic.world')
 
     # Path to the new twin model we created
     sdf_file = os.path.join(pkg_turtlebot3_gazebo, 'models', 'turtlebot3_burger_robot1', 'model.sdf')
