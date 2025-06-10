@@ -7,7 +7,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # --- Define Paths ---
-    my_controller_dir = get_package_share_directory('my_turtlebot3_controller')
+    my_controller_dir = get_package_share_directory('lab_turtlebot3')
     pkg_turtlebot3_gazebo = get_package_share_directory('turtlebot3_gazebo')
 
     # Using the standard Nav2 bringup launch for better namespace support

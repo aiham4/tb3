@@ -1,4 +1,4 @@
-# src/my_turtlebot3_controller/my_turtlebot3_controller/add_task_client.py
+# src/lab_turtlebot3/lab_turtlebot3/add_task_client.py
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String

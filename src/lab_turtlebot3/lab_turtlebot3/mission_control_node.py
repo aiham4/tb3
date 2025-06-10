@@ -1,4 +1,4 @@
-# src/my_turtlebot3_controller/my_turtlebot3_controller/mission_control_node.py
+# src/lab_turtlebot3/lab_turtlebot3/mission_control_node.py
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String, Empty, Float32

@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
-package_name = 'my_turtlebot3_controller'
+package_name = 'lab_turtlebot3'
 
 setup(
     name=package_name,
@@ -25,14 +25,14 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'cmd_vel_relay_node = my_turtlebot3_controller.cmd_vel_relay:main',
-            'tf_to_gazebo_node = my_turtlebot3_controller.tf_to_gazebo:main',
-            'order_dispatch_node = my_turtlebot3_controller.order_dispatch_node:main',
-            'mission_control_node = my_turtlebot3_controller.mission_control_node:main',
-            'navigation_executor_node = my_turtlebot3_controller.NavigationExecutorNode:main',
-            'add_task_client = my_turtlebot3_controller.add_task_client:main',
-            'initial_pose_publisher = my_turtlebot3_controller.initial_pose_publisher:main',
-            'battery_simulator_node = my_turtlebot3_controller.battery_simulator_node:main',
+            'cmd_vel_relay_node = lab_turtlebot3.cmd_vel_relay:main',
+            'tf_to_gazebo_node = lab_turtlebot3.tf_to_gazebo:main',
+            'order_dispatch_node = lab_turtlebot3.order_dispatch_node:main',
+            'mission_control_node = lab_turtlebot3.mission_control_node:main',
+            'navigation_executor_node = lab_turtlebot3.NavigationExecutorNode:main',
+            'add_task_client = lab_turtlebot3.add_task_client:main',
+            'initial_pose_publisher = lab_turtlebot3.initial_pose_publisher:main',
+            'battery_simulator_node = lab_turtlebot3.battery_simulator_node:main',
         ],
     },
 )

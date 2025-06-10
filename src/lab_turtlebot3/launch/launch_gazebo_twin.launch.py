@@ -6,7 +6,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    pkg_my_controller = get_package_share_directory('my_turtlebot3_controller')
+    pkg_my_controller = get_package_share_directory('lab_turtlebot3')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
     pkg_turtlebot3_gazebo = get_package_share_directory('turtlebot3_gazebo')
 
