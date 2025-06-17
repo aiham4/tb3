@@ -10,40 +10,41 @@ class TfToGazeboNode(Node):
     def __init__(self):
         super().__init__('tf_to_gazebo_bridge')
 
-        # The name of the robot model in Gazebo (must match the <model name='...'> in the SDF)
-        self.declare_parameter('gazebo_model_name', 'robot1')
-        self.model_name = self.get_parameter('gazebo_model_name').get_parameter_value().string_value
+        # This should match the <model name='...'> in your edited SDF file.
+        # For the setup we designed, this is 'robot1'.
+        self.model_name = 'robot1'
 
         # The frames we want to listen to for the PHYSICAL robot
-        # We want the transform from the map frame to the robot's base_footprint
-        self.declare_parameter('parent_frame', 'map')
-        self.parent_frame = self.get_parameter('parent_frame').get_parameter_value().string_value
-
-        self.declare_parameter('child_frame', 'base_footprint')
-        self.child_frame = self.get_parameter('child_frame').get_parameter_value().string_value
+        self.parent_frame = 'map'
+        self.child_frame = 'base_footprint'
 
         # TF listener setup
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
-        # Client to call the Gazebo service to set the model's state
-        self.set_state_client = self.create_client(SetEntityState, '/set_entity_state')
+        # --- THIS IS THE CORRECTED LINE ---
+        # The service to set a model's state in Gazebo is '/gazebo/set_entity_state'
+        self.set_state_client = self.create_client(SetEntityState, '/gazebo/set_entity_state')
+
         while not self.set_state_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Gazebo\'s /set_entity_state service not available, waiting again...')
+            self.get_logger().info('Gazebo service /gazebo/set_entity_state not available, waiting...')
 
         # Timer to periodically check for TF and update Gazebo
         self.timer = self.create_timer(0.05, self.on_timer) # 20 Hz update rate
+        self.get_logger().info('TF-to-Gazebo bridge started.')
+        self.get_logger().info(f"Will synchronize physical robot's '{self.child_frame}' frame to Gazebo model '{self.model_name}'.")
 
     def on_timer(self):
         try:
-            # Look up the transform from the map to the physical robot's base_footprint
+            # Look up the latest transform from the map to the physical robot's base_footprint
             t = self.tf_buffer.lookup_transform(
                 self.parent_frame,
                 self.child_frame,
                 rclpy.time.Time())
         except TransformException as ex:
-            self.get_logger().info(
-                f'Could not transform {self.parent_frame} to {self.child_frame}: {ex}')
+            self.get_logger().warn(
+                f'Could not get transform from "{self.parent_frame}" to "{self.child_frame}": {ex}',
+                 throttle_duration_sec=1.0)
             return
 
         # Create the request for the Gazebo service
@@ -60,10 +61,10 @@ class TfToGazeboNode(Node):
             z=t.transform.rotation.z,
             w=t.transform.rotation.w
         )
+        # We don't need to set velocity, so we leave those fields empty
 
         # Asynchronously call the service to update the twin's pose in Gazebo
         self.set_state_client.call_async(req)
-        # self.get_logger().info(f"Updated Gazebo model '{self.model_name}' pose.")
 
 def main(args=None):
     rclpy.init(args=args)
