@@ -1,4 +1,4 @@
-image: /home/ayham/Courses/CBL/ub/projects/src/lab_turtlebot3/config/map.pgm
+image: map.pgm
 mode: trinary
 resolution: 0.05
 origin: [-0.95, -1.54, 0]
