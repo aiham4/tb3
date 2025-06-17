@@ -40,15 +40,15 @@ class MissionControlNode(Node):
     def load_locations(self):
         """Loads delivery location coordinates."""
         self.locations = {
-            'station_a': {'x': 1.82575, 'y': 0.53147, 'yaw': 90.0},
-            'station_b': {'x': 1.83553, 'y': -0.85146, 'yaw': -90.0},
-            'station_c': {'x': 1.06260, 'y': 0.52092, 'yaw': 180.0},
-            'station_d': {'x': 0.44067, 'y': 0.49525, 'yaw': 0.0},
-            'station_e': {'x': -0.32311, 'y': -0.93322, 'yaw': 0.0},
-            'station_f': {'x': -0.34863, 'y': 0.49472, 'yaw': 0.0},
+            'station_a': {'x': 0.51705 'y': 0.61417, 'yaw': 90.0},
+            'station_b': {'x': 0.533365, 'y': -0.78886, 'yaw': -90.0},
+            'station_c': {'x': -0.87897, 'y': 0.58975, 'yaw': 180.0},
+            'station_d': {'x': -0.92627, 'y': -0.83397, 'yaw': 0.0},
+            #'station_e': {'x': -0.32311, 'y': -0.93322, 'yaw': 0.0},
+            #'station_f': {'x': -0.34863, 'y': 0.49472, 'yaw': 0.0},
             #'station_g': {'x': , 'y': , 'yaw': 0.0},
             'Origin': {'x': 0.00105, 'y': -0.016816, 'yaw': 0.0},
-            'charging_1': {'x': 0.75373, 'y': -0.84792, 'yaw': 90.0}
+            'charging_1': {'x': -0.23952, 'y': -0.19061, 'yaw': 90.0}
         }
 
     def load_route(self):
